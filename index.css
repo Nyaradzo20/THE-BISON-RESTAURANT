@@ -1,0 +1,290 @@
+* {
+   margin: 0;
+}
+
+body {
+   background-image: url("images/Untitled\ design.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+
+/*#blur{
+    width:1200px;
+    height:1000px;
+    background-color:rgba(0, 0, 0, 0.836);
+}*/
+#page {
+   background-color: #947c6596;
+   height: 620px;
+   width: 1200px;
+   height: 95vh;
+   position: relative;
+   left: 6%;
+   border: 2px solid transparent;
+
+}
+
+.logo {
+   display: inline-flex;
+}
+
+#page span .title {
+   margin-left: 25px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 25px;
+   color: #EDEDED;
+
+}
+
+#page span i {
+   color: #EDEDED;
+   font-size: 24px;
+   margin-top: 5px;
+   margin-left: 3px;
+
+}
+
+/*links*/
+.links {
+   display: inline-block;
+   margin-left: 180px;
+   width: auto;
+
+
+}
+
+.links li {
+   display: inline-block;
+   margin-left: 40px;
+   color: #27361F;
+   font-family: ;
+   font-size: 16px;
+
+}
+
+.carousel {
+
+   margin-top: 50px;
+   color: #27361F;
+   display: block;
+   height: 250px;
+
+}
+
+.carousel img {
+   height: 550px;
+   width: 500px;
+   margin-left: 10px;
+   margin-bottom: 160px;
+
+}
+
+
+.hero {
+   display: flex;
+   height: 450px;
+}
+
+.carousel h1 {
+   text-align: left;
+   margin-left: 100px;
+   margin-top: 150px;
+   letter-spacing: px;
+   color: #27361F;
+   flex-wrap: nowrap;
+   font-size: 50px;
+   font-family: 'Sacramento';
+}
+
+.press {
+   margin-left: 100px;
+
+
+}
+
+.glowing-btn {
+   height: 60px;
+   width: 200px;
+   background: black;
+   justify-content: center;
+   align-items: center;
+   border: solid #404c5d 1px;
+   font-family: Consolas, Courier New, monospace;
+   color: white;
+   font-size: 20px;
+}
+
+.gallery {
+   background-color: #947c6596;
+   height: 600px;
+   margin-top: 40px;
+   display: grid;
+   width: 1200px;
+   height: 900px;
+   position: relative;
+   left: 6%;
+   border: 2px solid transparent;
+
+
+
+}
+
+.one {
+   margin-top: 20px;
+   display: inline-flex;
+}
+.one .img{
+   width:540px;
+   margin-right: 28px;
+  
+
+}
+
+.one .stor {
+   width: 600px;
+   height: 400px;
+   display: block;
+   text-align: center;
+  
+   margin-top: 15px;
+   margin-left: 25px;
+
+
+}
+
+
+
+
+.stor {
+   width: 600px;
+   height: 400px;
+   display: block;
+   text-align: center;
+  
+   margin-top: 15px;
+   margin-left: 35px;
+
+
+}
+
+.stor h1 {
+   margin-top: 100px;
+   margin-right: 50px;
+}
+
+.stor p {
+   width: 500px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+}
+
+.img {
+
+   display: inline-flex;
+   height: 400px;
+   width: 540px;
+   margin-top: 15px;
+   
+   margin-left: 2px;
+
+}
+
+.img img {
+   height: 390px;
+   width: 280px;
+   margin-right: 8px;
+   margin-bottom: 10px;
+}
+
+.images {
+   display: inline-flex;
+   position: absolute;
+
+   margin-top: 440px;
+
+   margin-left: 35px;
+
+}
+
+.images img {
+   height: 390px;
+   width: 280px;
+   margin-right: 8px;
+   margin-left: -2px;
+}
+
+.two {
+   margin-top: 20px;
+   display: inline-flex;
+
+
+}
+
+.three {
+   margin-top: 20px;
+   height: 450px;
+   display: inline-flex;
+}
+
+.three img {
+   height: 350px;
+   width: 300px;
+   margin-top: 70px;
+}
+
+.four {
+   height: 400px;
+}
+.three .img{
+   width: 400px;
+   margin-right: 70px;
+}
+
+.five {
+   height: 300px;
+
+}
+
+.treat {
+   width: 20%;
+}
+
+.day {
+   width: 600px;
+   height: 300px;
+   border: 7px black double;
+   margin-left: 250px;
+   margin-top: 4%;
+
+}
+
+.position {
+
+   text-align: right;
+   margin: 10%;
+   margin-right: 35%;
+   font-size: 50px;
+}
+
+.last {
+   display: inline-flex;
+   margin-left: 10%;
+   margin-top: 6%;
+
+   text-align: center;
+}
+
+.last a {
+   text-decoration: none;
+   color: black;
+}
+
+.last {
+   list-style-type: none;
+}
+
+ul {
+   list-style-type: none;
+}
