@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
 * {
    margin: 0;
    box-sizing: border-box;
@@ -11,40 +14,42 @@ body {
 
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 .menu {
+   height: 500px;
+   text-align: center;
+   max-width:100%;
 
-   width: 100%;
-
-
+   margin-top:100px ;
 
 }
+.box{
+   display:inline-block;
+   
 
-.box {
-
-   height: 700px;
-   text-align: center;
-   max-width: 1000px;
-   position: relative;
-   margin: auto;
-
-
+}
+.one{
+   /*background-image:url("https://images.pexels.com/photos/10415309/pexels-photo-10415309.jpeg?auto=compress&cs=tinysrgb&w=600");
+*/}
+.last{
+   display: none;
 }
 
 .card {
+display: inline-block;
+   background-color: rgba(158, 87, 7, 0.61);
 
-   background-color: bisque;
-   display: none;
+   
    width: 400px;
-   height: 600px;
-   margin-top: 20px;
-   margin-right: 15px;
+   height: 500px;
+   text-align:center ;
 
 }
 
 
-.prev, .next {
+
+.prev,
+.next {
    cursor: pointer;
    position: absolute;
    top: 50%;
@@ -58,12 +63,43 @@ body {
    border-radius: 0 3px 3px 0;
    user-select: none;
 }
-
+.prev{
+   left:0;
+   
+}
 .next {
    right: 0;
-   border-radius: 3px 0 0 3px;
+   border-radius: 3px 0 0 3px solid brown;}
+
+.prev:hover,
+.next:hover {background-color:rgba(158, 87, 7, 0.61);}
+
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: black;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+.dots{
+   margin-top:5px;
+
+
+}
+.fade {
+   animation-name: fade;
+   animation-duration: 1.5s;
 }
 
-.prev:hover, .next:hover {
-   background-color: rgba(0,0,0,0.8);
- }
+@keyframes fade {
+   from {
+      opacity: .4
+   }
+
+   to {
+      opacity: 1
+   }
+}
